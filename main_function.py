@@ -112,7 +112,7 @@ from keras.models import Sequential
 from keras.layers.core import Dense, Activation
 from keras.utils import np_utils
 import keras
-#np.random.seed(69)
+#np.random.seed(100)
 
 train_x=np.array(data['x-axis'])
 target_x=(data['target'])
