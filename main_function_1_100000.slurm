@@ -12,6 +12,6 @@ conda init bash
 source ~/.bashrc
 conda activate test_env
 export MKL_THREADING_LAYER=GNU
-python main_function.py $SLURM_ARRAY_TASK_ID 1 100000
+python main.py $SLURM_ARRAY_TASK_ID 1 100000
 
 
